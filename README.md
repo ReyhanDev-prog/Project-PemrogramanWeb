@@ -1,9 +1,4 @@
 # Project-PemrogramanWeb
-# 📘 README.md untuk Repository SIAKAD Sederhana
-
-Tambahkan file `README.md` di root folder `siakad/` dengan isi sebagai berikut:
-
----
 
 # SIAKAD Sederhana
 **Sistem Informasi Akademik** sederhana berbasis PHP native (tanpa framework) dengan template AdminLTE dan Bootstrap.
@@ -17,7 +12,7 @@ Tambahkan file `README.md` di root folder `siakad/` dengan isi sebagai berikut:
 
 ---
 
-## 🛠 Teknologi
+## Teknologi
 - **Backend:** PHP 8.x (native, tanpa framework)
 - **Frontend:** HTML, CSS, JavaScript (Bootstrap 4, AdminLTE 3)
 - **Database:** MySQL
@@ -40,7 +35,6 @@ siakad/
 ├── index.php
 ├── siakad.sql           # Skema database + data awal
 └── README.md
-```
 
 ---
 
@@ -49,6 +43,7 @@ siakad/
    ```bash
    git clone https://github.com/username/siakad-sederhana.git
    ```
+   
 2. Pindahkan folder ke `htdocs` (XAMPP) atau `www` (Laragon).
 3. Import `siakad.sql` ke MySQL (via phpMyAdmin atau command line).
 4. Sesuaikan koneksi database di `config/database.php`:
@@ -101,7 +96,3 @@ MIT License – bebas digunakan untuk keperluan belajar.
    git commit -m "Menambahkan README.md"
    git push origin main
    ```
-
----
-
-Selesai! File README ini akan membantu pengguna lain memahami proyek Anda. 😊
