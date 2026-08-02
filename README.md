@@ -1,6 +1,6 @@
 # Project-PemrogramanWeb
 
-# SIAKAD Sederhana
+# SIAKAD
 **Sistem Informasi Akademik** sederhana berbasis PHP native (tanpa framework) dengan template AdminLTE dan Bootstrap.
 
 ---
