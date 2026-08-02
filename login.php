@@ -39,7 +39,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class="form-group"><label>Password</label><input type="password" name="password" class="form-control" required></div>
                         <button type="submit" class="btn btn-primary btn-block">Login</button>
                     </form>
-                    <div class="mt-3 text-center"><small>Demo: admin/admin123, dosen1/dosen123, mahasiswa1/mhs123</small></div>
                 </div>
             </div>
         </div>
