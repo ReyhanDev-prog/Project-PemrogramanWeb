@@ -14,34 +14,59 @@
 
 ## Teknologi
 - **Backend:** PHP 8.x (native, tanpa framework)
-- **Frontend:** HTML, CSS, JavaScript (Bootstrap 4, AdminLTE 3)
+- **Frontend:** HTML, CSS
 - **Database:** MySQL
 - **Version Control:** Git (commit > 25 kali)
 
 ---
 
-## Struktur Folder
+## Struktur Proyek
 
+```text
 siakad/
-├── assets/              # CSS, JS, plugin
+├── admin/
+│   ├── dosen.php
+│   ├── dosen_tambah.php
+│   ├── dosen_edit.php
+│   ├── mahasiswa.php
+│   ├── mahasiswa_tambah.php
+│   ├── mahasiswa_edit.php
+│   ├── matakuliah.php
+│   ├── matakuliah_tambah.php
+│   ├── matakuliah_edit.php
+│   ├── proses.php
+│   ├── header.php
+│   ├── footer.php
+│   └── index.php          # Dashboard Admin
 ├── config/
-│   └── database.php     # Koneksi database
-├── admin/               # Modul Admin (CRUD dosen, mahasiswa, MK)
-├── dosen/               # Modul Dosen (isi nilai)
-├── mahasiswa/           # Modul Mahasiswa (KRS, IPK)
-├── login.php
-├── logout.php
-├── dashboard.php
-├── index.php
-├── siakad.sql           # Skema database + data awal
-└── README.md
+│   └── database.php       # Konfigurasi koneksi database
+├── dosen/
+│   ├── index.php          # Dashboard Dosen
+│   ├── nilai.php          # Input dan kelola nilai mahasiswa
+│   ├── header.php
+│   └── footer.php
+├── mahasiswa/
+│   ├── index.php          # Dashboard Mahasiswa
+│   ├── krs.php            # Pengisian KRS
+│   ├── ipk.php            # Perhitungan dan tampilan IPK
+│   ├── header.php
+│   └── footer.php
+├── config/
+│   └── database.php       # Koneksi database
+├── dashboard.php          # Dashboard berdasarkan hak akses
+├── index.php              # Halaman utama
+├── login.php              # Login pengguna
+├── logout.php             # Logout pengguna
+├── siakad.sql             # Struktur database dan data awal
+└── README.md              # Dokumentasi proyek
+```
 
 ---
 
 ## Instalasi
 1. **Clone repositori** (atau unduh zip):
    ```bash
-   git clone https://github.com/username/siakad-sederhana.git
+   https://github.com/ReyhanDev-prog/Project-PemrogramanWeb.git
    ```
    
 2. Pindahkan folder ke `htdocs` (XAMPP) atau `www` (Laragon).
