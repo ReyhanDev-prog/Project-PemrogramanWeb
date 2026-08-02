@@ -107,17 +107,3 @@ siakad/
 ## Lisensi
 MIT License – bebas digunakan untuk keperluan belajar.
 
-
----
-
-## Cara Menambahkan ke Repository
-
-1. Buat file `README.md` di root folder `siakad/`.
-2. Copy-paste isi di atas.
-3. Tambahkan screenshot (jika ada) di folder `screenshots/` dan tautkan di bagian **Screenshot**.
-4. Commit dan push ke GitHub:
-   ```bash
-   git add README.md
-   git commit -m "Menambahkan README.md"
-   git push origin main
-   ```
